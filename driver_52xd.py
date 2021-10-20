@@ -140,7 +140,7 @@ def run_driver(device: Device):
                 b"\x8d\x01\x27\x01\x21\x01\x27\x01"
                 b"\x23\x01\x00\x00\x00\x00\x00\x00"
                 b"\x00\x00\x00\x00\x00\x00\x00\x00"
-                b"\x00\x00\x01", True)
+                b"\x00\x00\x01", False)
 
             device.write_sensor_register(0x022c, b"\x0a\x03")
 
